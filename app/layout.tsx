@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import React from "react";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -11,6 +12,9 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "StoreIt",
   description: "StoreIt - The only storage solution you need.",
+  icons: {
+    icon: "assets/images/logoImage.png", // You can also use PNG: icon: "/favicon.png"
+  },
 };
 
 export default function RootLayout({
