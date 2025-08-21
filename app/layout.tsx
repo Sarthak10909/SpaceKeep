@@ -10,8 +10,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "StoreIt",
-  description: "StoreIt - The only storage solution you need.",
+  title: "SpaceKeep",
+  description: "SpaceKeep - The only storage solution you need.",
   icons: {
     icon: "assets/images/logoImage.png", // You can also use PNG: icon: "/favicon.png"
   },
